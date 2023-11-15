@@ -1,0 +1,38 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/segIns_004"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "eckstueck",
+                "name": "Michel"
+            },
+            "created": "2023-11-15T07:39:11.861Z",
+            "modified": "2023-11-15T07:39:12.428Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest",
+                "type": "Manifest"
+            },
+            "id": "https://d.lib.ncsu.edu/collections/canvas/segIns_004",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=302.3548889160156,619.19775390625,2088.7022399902344,3566.927734375"
+        }
+    },
+    "id": "8bd3fb7d-5b1b-4dd6-aa3d-b2fe7fb2fb70.json",
+    "motivation": "commenting"
+}
